@@ -64,5 +64,6 @@ jobs:
       - run: pnpm format:check
       - run: pnpm lint:check
       - run: pnpm stylelint:check
+      - run: pnpm test:coverage
       - run: pnpm test:unit
       - run: pnpm build

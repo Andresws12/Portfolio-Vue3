@@ -21,7 +21,7 @@
     "fix:all": "pnpm format && pnpm lint && pnpm stylelint",
     "check:all": "pnpm format:check && pnpm lint:check && pnpm stylelint:check",
     "test:unit": "jest --verbose",
-    "test:coverage": "vitest run --coverage",
+    "test:coverage": "jest --collectCoverage",
     "test:e2e-cy-cli-action": "cypress run --browser chrome",
     "test:e2e-cy": "export NODE_ENV=local && cypress open",
     "test:e2e-cy-cli": "export NODE_ENV=local && cypress run --browser chrome",
