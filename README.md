@@ -21,18 +21,19 @@
 
 <font size="4">**Welcome to my personal portfolio 👋.**</font>
 
-My personal portfolio has been meticulously crafted using Vue 3, Typescript, and Pinia for seamless state management. With this project, I strive to demonstrate my development expertise and take the opportunity to explore innovative ideas, while conducting experiments with these leading-edge technologies in the field of frontend development.
+My personal portfolio has been meticulously crafted using Vue 3, Typescript, and Pinia for seamless state management. I strive to demonstrate my development expertise and explore innovative ideas, while conducting experiments with leading-edge technologies in the field of frontend development.
+
 
 ## <span id="built-with">🏗️Built with</span>
 
-**Below is the framework used for the project and the libraries used in the project.**
+**Below are the frameworks and libraries used in this project:**
 
 > - [Vue 3][vue]
 > - [Pinia][pinia]
-> - [Typescrypt][typescript]
+> - [Typescript][typescript]
 > - [VeeValidate][vee-validate]
 > - [VueUse][vue-use]
-> - [Fontawesome]
+> - [Fontawesome][fontawesome]
 > - [Sass][sass]
 > - [Prettier][prettier]
 > - [Eslint][eslint]
@@ -44,7 +45,7 @@ My personal portfolio has been meticulously crafted using Vue 3, Typescript, and
 
 ## <span id="getting-started">⚙️Getting Started</span>
 
-The following details everything you need to have installed in order to install the project and also the steps to follow for the installation
+This section details everything you need to install the project and the steps to follow for installation.
 
 ### <span id="prerequisites">🚩Prerequisites</span>
 
@@ -75,16 +76,13 @@ The following details everything you need to have installed in order to install 
    ```sh
    git clone https://github.com/Andresws12/Portfolio-Vue3.git
    ```
-2. Open the folder generated, if you are using the terminal could be:
+2. Open the folder and run the required commands for installation
    ```sh
    cd Portfolio-Vue3
    code .
-   ```
-3. When you are in the folder of the project (<path>/Portfolio-Vue3/) run the command
-   ```sh
    pnpm install
    ```
-4. Now you need to prepare husky with the correct permissions, run the command
+4. Prepare husky with the correct permissions
    ```sh
    pnpm kusky:prepare
    ```
@@ -106,13 +104,13 @@ Start Vite dev server in the current directory.
 
 #### <span id="vite-build-and-preview">🧱Vite build and preview</span>
 
-1. Build for environments
+1. Build for specific environments
    ```sh
    pnpm build
    pnpm build:development
    pnpm build:production
    ```
-2. Locally preview environment build.
+2. Preview the environment build locally
    ```sh
    pnpm preview
    ```
@@ -127,7 +125,8 @@ Start Vite dev server in the current directory.
 
 ## <span id="testing">🧪Testing and formatting</span>
 
-Testing is an important part of our project, so we have prepared simple testing and formatting commands to make our project more coherent.
+I have prepared simple testing and formatting commands to make our project more coherent.
+
 
 ### <span id="formatting-code">🖊️Formatting the code</span>
 
