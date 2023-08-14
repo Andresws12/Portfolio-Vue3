@@ -23,6 +23,16 @@
 
 My personal portfolio has been meticulously crafted using Vue 3, Typescript, and Pinia for seamless state management. I strive to demonstrate my development expertise and explore innovative ideas, while conducting experiments with leading-edge technologies in the field of frontend development.
 
+## To-Do List 🎉
+
+Here are some things I have in mind to enhance my portfolio. It's a work in progress!
+
+- [x] Create an "README" section.📃
+- [x] Create base project.
+- [x] Deploy base project.🚀
+- [ ] Add personal data.
+- [ ] Implement interaction with api jokes.
+- [ ] Find more bad jokes. 😂
 
 ## <span id="built-with">🏗️Built with</span>
 
@@ -82,7 +92,7 @@ This section details everything you need to install the project and the steps to
    code .
    pnpm install
    ```
-4. Prepare husky with the correct permissions
+3. Prepare husky with the correct permissions
    ```sh
    pnpm kusky:prepare
    ```
@@ -126,7 +136,6 @@ Start Vite dev server in the current directory.
 ## <span id="testing">🧪Testing and formatting</span>
 
 I have prepared simple testing and formatting commands to make our project more coherent.
-
 
 ### <span id="formatting-code">🖊️Formatting the code</span>
 
@@ -262,7 +271,6 @@ I have prepared simple testing and formatting commands to make our project more 
     └── webservices             // Api connections files
         └── models                  // Models to api connections
 ```
-
 
 **[Back to top](#table-of-contents)**
 
