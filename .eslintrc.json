@@ -1,0 +1,67 @@
+{
+  "root": true,
+
+  "env": {
+    "node": true
+  },
+
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["cypress"],
+
+  "extends": [
+    "plugin:vue/vue3-essential",
+    "eslint:recommended",
+    "@vue/typescript/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:vue/base",
+    "plugin:vue/vue3-strongly-recommended",
+    "plugin:vue/vue3-recommended",
+    "prettier",
+    "plugin:cypress/recommended",
+    "plugin:@intlify/vue-i18n/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-inferrable-types": 0,
+    "@intlify/vue-i18n/no-dynamic-keys": "error",
+    "@intlify/vue-i18n/no-unused-keys": [
+      "error",
+      {
+        "extensions": [".js", ".vue"]
+      }
+    ],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "dir",
+          "timeLog",
+          "assert",
+          "clear",
+          "count",
+          "countReset",
+          "group",
+          "groupEnd",
+          "table",
+          "dirxml",
+          "error",
+          "groupCollapsed",
+          "Console",
+          "profile",
+          "profileEnd",
+          "timeStamp",
+          "context"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "vue-i18n": {
+      "localeDir": "./src/localization/locales/**/*.json"
+    }
+  }
+}

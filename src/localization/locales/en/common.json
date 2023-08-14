@@ -1,0 +1,22 @@
+{
+  "common": {
+    "components": {
+      "loading": {
+        "altText": "Loading icon"
+      }
+    },
+    "title": {
+      "home": "Home"
+    },
+    "subtitle": {},
+    "inputs": {},
+    "buttons": {},
+    "notifications": {
+      "success": {},
+      "error": {}
+    },
+    "images": {},
+    "languages": { "spanish": "Spanish", "english": "English" },
+    "errors": {}
+  }
+}

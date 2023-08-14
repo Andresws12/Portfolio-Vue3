@@ -1,0 +1,13 @@
+{
+  "views": {
+    "maintenancePage": {},
+    "home": {
+      "localCounterTitle": "Contador local",
+      "localCounterSubTitle": "Contador: ",
+      "localCounterButton": "Sumar contador",
+      "stateCounterTitle": "Contador Pinia",
+      "stateCounterSubTitle": "Contador: ",
+      "stateCounterButton": "Sumar contador"
+    }
+  }
+}

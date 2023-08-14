@@ -1,0 +1,13 @@
+{
+  "views": {
+    "maintenancePage": {},
+    "home": {
+      "localCounterTitle": "Counter local",
+      "localCounterSubTitle": "Counter: ",
+      "localCounterButton": "Sum Counter",
+      "stateCounterTitle": "Counter Pinia",
+      "stateCounterSubTitle": "Counter: ",
+      "stateCounterButton": "Sum Counter"
+    }
+  }
+}

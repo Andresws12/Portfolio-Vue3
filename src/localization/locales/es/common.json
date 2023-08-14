@@ -1,0 +1,22 @@
+{
+  "common": {
+    "components": {
+      "loading": {
+        "altText": "Icono de carga"
+      }
+    },
+    "title": {
+      "home": "Inicio"
+    },
+    "subtitle": {},
+    "inputs": {},
+    "buttons": {},
+    "notifications": {
+      "success": {},
+      "error": {}
+    },
+    "images": {},
+    "languages": { "spanish": "Español", "english": "Inglés" },
+    "errors": {}
+  }
+}

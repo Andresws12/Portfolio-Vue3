@@ -1,0 +1,68 @@
+name: Check lints and Cypress Tests with Dependency and Artifact Caching
+
+on: push
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm i -g pnpm
+      - run: pnpm install
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        env:
+          CYPRESS_BASE_URL: http://localhost:5173
+        with:
+          install: false
+          project: ./
+          start: |
+            pnpm dev
+          wait-on: 'http://[::1]:5173'
+          wait-on-timeout: 120
+      - name: Show e2e video
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: videos
+          path: cypress/videos
+  checks-lints:
+    runs-on: ubuntu-22.04
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm i -g pnpm
+      - run: pnpm install
+      - run: pnpm format:check
+      - run: pnpm lint:check
+      - run: pnpm stylelint:check
+      - run: pnpm test:unit
+      - run: pnpm build
