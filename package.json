@@ -35,11 +35,6 @@
     "husky:prepare": "husky install && chmod ug+x .husky/*"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-brands-svg-icons": "^6.4.2",
-    "@fortawesome/free-regular-svg-icons": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@fortawesome/vue-fontawesome": "^3.0.3",
     "@intlify/unplugin-vue-i18n": "^0.12.2",
     "@vueuse/core": "^10.3.0",
     "@vueuse/head": "^1.1.26",
@@ -56,7 +51,6 @@
     "vue": "^3.3.4",
     "vue-i18n": "^9.2.2",
     "vue-router": "^4.2.4",
-    "vue-toastification": "^2.0.0-rc.5",
     "yup": "^1.2.0"
   },
   "devDependencies": {
