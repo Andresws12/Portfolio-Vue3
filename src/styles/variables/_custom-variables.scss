@@ -1,12 +1,13 @@
 // App Colors
-$main-color: wheat;
-$main-color-light: #fff;
-$main-color-dark: #172b3a;
-$main-color-medium-light: #ccc;
-$main-color-medium-dark: #2b5973;
-$main-color-success: #12fd63;
-$main-color-fail: #e01f2f;
-$main-color-background: #20202c;
+$main-color: #dcd7c9;
+$main-color-light: #3f4e4f;
+$main-color-dark: #2c3639;
+$main-color-medium-light: #a27b5c;
+$main-color-background: linear-gradient(
+  90deg,
+  rgb(44 54 57 / 100%) 0%,
+  rgb(63 78 79 / 100%) 100%
+);
 
 // App Colors Lighters
 $main-color-success-lighter: #48c774;

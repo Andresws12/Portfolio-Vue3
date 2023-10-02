@@ -1,32 +1,65 @@
 <template>
-  <section data-cy="home-section">
-    <h1>{{ $t('views.home.localCounterTitle') }}</h1>
-    <p>{{ $t('views.home.localCounterSubTitle') }} {{ counter }}</p>
-    <button @click="sumCounter()">
-      {{ $t('views.home.localCounterButton') }}
-    </button>
-    <h1>{{ $t('views.home.stateCounterTitle') }}</h1>
-    <p>{{ $t('views.home.stateCounterSubTitle') }}{{ counterStore.counter }}</p>
-    <button @click="counterStore.increment()">
-      {{ $t('views.home.stateCounterButton') }}
-    </button>
+  <section data-cy="home-section" class="home-content">
+    <img
+      class="home-content__image"
+      src="@/assets/img/body.png"
+      alt="r"
+      width="250"
+      height="288"
+    />
+    <img
+      class="home-content__image-blurred"
+      src="@/assets/img/body.png"
+      width="250"
+      height="288"
+      alt="imagen desenfocada"
+    />
+    <article class="home-content__data">
+      <h1 class="home-content__title">{{ $t('views.home.title') }}</h1>
+      <h2 class="home-content__subtitle">{{ $t('views.home.subtitle') }}</h2>
+      <div class="home-content__description-section">
+        <p>{{ $t('views.home.descriptionGreetings') }}</p>
+        <p>
+          {{ $t('views.home.descriptionWelcome') }}<br />{{
+            $t('views.home.description')
+          }}
+        </p>
+      </div>
+    </article>
   </section>
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue';
-import type { Ref } from 'vue';
-
-import { useTestCounterStore } from '@/stores/testCounter';
-const counterStore = useTestCounterStore();
-
-const counter: Ref<number> = ref(0);
-
-const sumCounter = (): void => {
-  counter.value++;
-};
+// Code
 </script>
 
 <style lang="scss" scoped>
 //Styles
+.home-content {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+
+  @media only screen and (width <= 600px) {
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 1.75rem;
+  }
+
+  &__data {
+    padding: 35px;
+  }
+
+  &__image {
+    z-index: 2;
+  }
+
+  &__image-blurred {
+    position: absolute;
+    z-index: 1;
+    filter: blur(8px);
+  }
+}
 </style>
