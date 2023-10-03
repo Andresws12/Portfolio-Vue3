@@ -2,17 +2,19 @@
   <section data-cy="home-section" class="home-content">
     <img
       class="home-content__image"
-      src="@/assets/img/body.png"
-      alt="r"
+      src="@/assets/img/body.webp"
+      :alt="$t('views.home.images.dataBodyImage')"
+      :title="$t('views.home.images.dataBodyImage')"
       width="250"
       height="288"
     />
     <img
       class="home-content__image-blurred"
-      src="@/assets/img/body.png"
+      src="@/assets/img/body.webp"
+      :alt="$t('views.home.images.dataBodyImageBlurred')"
+      :title="$t('views.home.images.dataBodyImageBlurred')"
       width="250"
       height="288"
-      alt="imagen desenfocada"
     />
     <article class="home-content__data">
       <h1 class="home-content__title">{{ $t('views.home.title') }}</h1>

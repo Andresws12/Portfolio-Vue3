@@ -5,8 +5,8 @@ $main-color-dark: #2c3639;
 $main-color-medium-light: #a27b5c;
 $main-color-background: linear-gradient(
   90deg,
-  rgb(44 54 57 / 100%) 0%,
-  rgb(63 78 79 / 100%) 100%
+  $main-color-dark 0%,
+  $main-color-light 100%
 );
 
 // App Colors Lighters
