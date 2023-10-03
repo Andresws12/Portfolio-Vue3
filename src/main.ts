@@ -1,5 +1,6 @@
 import { createPersistedState } from 'pinia-plugin-persistedstate';
 import { createHead } from '@vueuse/head';
+import Particles from 'vue3-particles';
 import { createPinia } from 'pinia';
 import { createApp } from 'vue';
 
@@ -18,5 +19,5 @@ pinia.use(
     auto: true,
   })
 );
-app.use(pinia).use(head).use(i18n).use(router);
+app.use(pinia).use(head).use(i18n).use(router).use(Particles);
 app.mount('#app');
