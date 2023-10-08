@@ -57,8 +57,9 @@
 
   &__data {
     padding: 0 35px;
+
     @media only screen and (width <= 600px) {
-      padding: 0px;
+      padding: 0;
     }
   }
 

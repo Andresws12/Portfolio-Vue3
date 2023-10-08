@@ -8,7 +8,7 @@ import { changeLanguage } from '@/utils/functionUtils/localizationFunctions';
 </script>
 <style lang="scss" scoped>
 .button-translations {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   z-index: 20;
