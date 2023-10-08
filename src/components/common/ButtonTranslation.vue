@@ -1,5 +1,5 @@
 <template>
-  <button @click="changeLanguage()">
+  <button class="button button-translations" @click="changeLanguage()">
     <span>{{ $i18n.locale }}</span>
   </button>
 </template>
@@ -12,8 +12,6 @@ import { changeLanguage } from '@/utils/functionUtils/localizationFunctions';
   top: 20px;
   right: 20px;
   z-index: 20;
-  padding-left: 10px;
-  padding-right: 10px;
   text-transform: uppercase;
 
   &__locale {

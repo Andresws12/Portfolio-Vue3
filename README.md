@@ -21,7 +21,7 @@
 
 <font size="4">**Welcome to my personal portfolio 👋.**</font>
 
-My personal portfolio has been meticulously crafted using Vue 3, Typescript, and Pinia for seamless state management. I strive to demonstrate my development expertise and explore innovative ideas, while conducting experiments with leading-edge technologies in the field of frontend development.
+My personal portfolio has been meticulously crafted using Vue 3, Typescript, and Pinia for  state management. I strive to demonstrate my development expertise and explore innovative ideas, while conducting experiments with leading-edge technologies in the field of frontend development.
 
 ## To-Do List 🎉
 

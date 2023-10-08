@@ -5,11 +5,12 @@
     :options="optionsParticles"
   />
   <RouterView />
-  <!-- <button-translation /> -->
+  <button-translation />
 </template>
 0
 <script lang="ts" setup>
-// import ButtonTranslation from '@/components/common/ButtonTranslation.vue';
+import ButtonTranslation from '@/components/common/ButtonTranslation.vue';
+
 import { loadSlim } from 'tsparticles-slim';
 import type { Engine } from 'tsparticles-engine';
 import { optionsParticles } from '@/utils/vueParticlesConfiguration';
