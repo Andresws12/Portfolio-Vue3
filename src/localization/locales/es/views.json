@@ -2,11 +2,20 @@
   "views": {
     "maintenancePage": {},
     "home": {
-      "title": "Andrés Felipe Hernández Galindo",
-      "subtitle": "Ingeniero de Software Front-end",
-      "descriptionGreetings": "¡Hola a todos!",
-      "descriptionWelcome": "Bienvenidos a mi portafolio personal 👋.",
-      "description": "Mi portafolio personal ha sido meticulosamente elaborado utilizando Vue 3, Typescript y Pinia para una gestión de estados. Me esfuerzo por demostrar mi experiencia en desarrollo y explorar ideas innovadoras, mientras realizo experimentos con tecnologías de vanguardia en el campo del desarrollo frontend.",
+      "homeDescription": {
+        "title": "Andrés Felipe Hernández Galindo",
+        "subtitle": "Ingeniero de Software Front-end",
+        "descriptionGreetings": "¡Hola a todos!",
+        "descriptionWelcome": "¡Hey, qué tal! 👋",
+        "description": "¡Bienvenido a mi rincón digital! He construido este portafolio con mucho amor y código, utilizando Vue 3, Typescript y Pinia para una gestión de estados eficiente. Aquí me divierto experimentando con las últimas tendencias en desarrollo frontend y poniendo en práctica mis ideas más innovadoras."
+      },
+      "homeDescriptionPersonal": {
+        "descriptionWho": "¿Y quién soy yo? 🤔",
+        "descriptions": {
+          "paragraph1": "Soy un colombiano con alma española, o quizás un español con corazón colombiano. He tenido la suerte de vivir en ambos países y de empaparme de lo mejor de cada cultura: la alegría, la ética de trabajo, la resolución de problemas, el amor por la familia y la perseverancia.",
+          "paragraph2": "Desde que era un crío, me he sentido atraído por la tecnología. Empecé con servidores de Habbo y sistemas operativos Android personalizados, y ahora, aquí estoy, viviendo mi pasión cada día. Pero no todo en la vida es código; también me encanta mantenerme en forma con crossfit, perderme en la naturaleza, viajar para descubrir nuevos horizontes, disfrutar de buena música y aprender constantemente en todos los ámbitos de la vida."
+        }
+      },
       "images": {
         "dataBodyImage": "Yo en 3D low poly",
         "dataBodyImageBlurred": "Yo en 3D low poly"
