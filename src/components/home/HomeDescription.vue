@@ -17,15 +17,17 @@
       height="288"
     />
     <article class="home-description__data">
-      <h1 class="home-description__title">{{ $t('views.home.title') }}</h1>
+      <h1 class="home-description__title">
+        {{ $t('views.home.homeDescription.title') }}
+      </h1>
       <h2 class="home-description__subtitle">
-        {{ $t('views.home.subtitle') }}
+        {{ $t('views.home.homeDescription.subtitle') }}
       </h2>
       <div class="home-description__description-section">
-        <p>{{ $t('views.home.descriptionGreetings') }}</p>
+        <p>{{ $t('views.home.homeDescription.descriptionGreetings') }}</p>
         <p>
-          {{ $t('views.home.descriptionWelcome') }}<br />{{
-            $t('views.home.description')
+          {{ $t('views.home.homeDescription.descriptionWelcome') }}<br />{{
+            $t('views.home.homeDescription.description')
           }}
         </p>
       </div>
@@ -42,10 +44,11 @@
 .home-description {
   display: flex;
   padding: 25px 25px 0;
-  align-items: center;
+  align-items: flex-end;
 
   @media only screen and (width <= 600px) {
     flex-direction: column;
+    align-items: center;
   }
 
   &__title {
