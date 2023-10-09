@@ -1,13 +1,23 @@
 <template>
   <section data-cy="home-section" class="home-personal-description">
-    <article>
-      <h2>{{ $t('views.home.homeDescriptionPersonal.descriptionWho') }}</h2>
-      <p>
-        {{ $t('views.home.homeDescriptionPersonal.descriptions.paragraph1') }}
-      </p>
-      <p>
-        {{ $t('views.home.homeDescriptionPersonal.descriptions.paragraph2') }}
-      </p>
+    <article class="home-personal-description__content">
+      <div>
+        <h2>{{ $t('views.home.homeDescriptionPersonal.descriptionWho') }}</h2>
+        <p>
+          {{ $t('views.home.homeDescriptionPersonal.descriptions.paragraph1') }}
+        </p>
+        <p>
+          {{ $t('views.home.homeDescriptionPersonal.descriptions.paragraph2') }}
+        </p>
+      </div>
+      <img
+        class="home-description__image"
+        src="@/assets/img/animals.png"
+        :alt="$t('views.home.images.dataBodyImage')"
+        :title="$t('views.home.images.dataBodyImage')"
+        width="250"
+        height="250"
+      />
     </article>
   </section>
 </template>
@@ -22,5 +32,13 @@
   background-color: $main-color;
   color: $main-color-dark;
   padding: 25px;
+
+  &__content {
+    display: flex;
+    @media only screen and (width <= 600px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }
 </style>
