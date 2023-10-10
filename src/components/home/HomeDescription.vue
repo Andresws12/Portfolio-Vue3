@@ -6,7 +6,7 @@
       :alt="$t('views.home.images.dataBodyImage')"
       :title="$t('views.home.images.dataBodyImage')"
       width="250"
-      height="288"
+      height="392"
     />
     <img
       class="home-description__image-blurred"
@@ -14,7 +14,7 @@
       :alt="$t('views.home.images.dataBodyImageBlurred')"
       :title="$t('views.home.images.dataBodyImageBlurred')"
       width="250"
-      height="288"
+      height="392"
     />
     <article class="home-description__data">
       <h1 class="home-description__title">
@@ -43,10 +43,15 @@
 //Styles
 .home-description {
   display: flex;
-  padding: 25px 25px 0;
+  padding: 25px 125px 0;
   align-items: flex-end;
 
+  @media only screen and (width <= 1024px) {
+    padding: 25px 55px 0;
+  }
+
   @media only screen and (width <= 600px) {
+    padding: 25px 25px 0;
     flex-direction: column;
     align-items: center;
   }

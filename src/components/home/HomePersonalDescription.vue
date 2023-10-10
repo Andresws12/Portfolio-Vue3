@@ -15,8 +15,8 @@
         src="@/assets/img/animals.webp"
         :alt="$t('views.home.images.dataBodyImage')"
         :title="$t('views.home.images.dataBodyImage')"
-        width="250"
-        height="239"
+        width="375"
+        height="359"
       />
     </article>
   </section>
@@ -31,7 +31,11 @@
 .home-personal-description {
   background-color: $main-color;
   color: $main-color-dark;
-  padding: 25px;
+  padding: 25px 125px;
+
+  @media only screen and (width <= 1024px) {
+    padding: 25px;
+  }
 
   &__content {
     display: flex;
