@@ -12,11 +12,11 @@
       </div>
       <img
         class="home-description__image"
-        src="@/assets/img/animals.png"
+        src="@/assets/img/animals.webp"
         :alt="$t('views.home.images.dataBodyImage')"
         :title="$t('views.home.images.dataBodyImage')"
         width="250"
-        height="250"
+        height="239"
       />
     </article>
   </section>
@@ -35,6 +35,7 @@
 
   &__content {
     display: flex;
+
     @media only screen and (width <= 600px) {
       flex-direction: column;
       align-items: center;
