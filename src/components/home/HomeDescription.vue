@@ -23,12 +23,13 @@
       <h2 class="home-description__subtitle">
         {{ $t('views.home.homeDescription.subtitle') }}
       </h2>
+      <p>
+        <button-contact />
+      </p>
       <div class="home-description__description-section">
-        <p>{{ $t('views.home.homeDescription.descriptionGreetings') }}</p>
+        <p>{{ $t('views.home.homeDescription.descriptionWelcome') }}</p>
         <p>
-          {{ $t('views.home.homeDescription.descriptionWelcome') }}<br />{{
-            $t('views.home.homeDescription.description')
-          }}
+          {{ $t('views.home.homeDescription.description') }}
         </p>
       </div>
     </article>
@@ -36,14 +37,14 @@
 </template>
 
 <script lang="ts" setup>
-// Code
+import ButtonContact from '@/components/common/ButtonContact.vue';
 </script>
 
 <style lang="scss" scoped>
 //Styles
 .home-description {
   display: flex;
-  padding: 25px 125px 0;
+  padding: 25px 200px 0;
   align-items: flex-end;
 
   @include tablet {
@@ -76,6 +77,10 @@
     position: absolute;
     z-index: 1;
     filter: blur(8px);
+  }
+
+  &__description-section {
+    padding-bottom: 25px;
   }
 }
 </style>

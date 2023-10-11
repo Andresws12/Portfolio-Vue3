@@ -13,8 +13,8 @@
       <img
         class="home-description__image"
         src="@/assets/img/animals.webp"
-        :alt="$t('views.home.images.dataBodyImage')"
-        :title="$t('views.home.images.dataBodyImage')"
+        :alt="$t('views.home.images.dataAnimalsImage')"
+        :title="$t('views.home.images.dataAnimalsImage')"
         width="375"
         height="359"
       />
@@ -31,7 +31,7 @@
 .home-personal-description {
   background-color: $main-color;
   color: $main-color-dark;
-  padding: 25px 125px;
+  padding: 25px 200px;
 
   @include tablet {
     padding: 25px;
