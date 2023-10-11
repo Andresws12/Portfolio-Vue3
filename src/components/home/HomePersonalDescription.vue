@@ -33,14 +33,14 @@
   color: $main-color-dark;
   padding: 25px 125px;
 
-  @media only screen and (width <= 1024px) {
+  @include tablet {
     padding: 25px;
   }
 
   &__content {
     display: flex;
 
-    @media only screen and (width <= 600px) {
+    @include mobile {
       flex-direction: column;
       align-items: center;
     }

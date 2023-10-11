@@ -46,11 +46,11 @@
   padding: 25px 125px 0;
   align-items: flex-end;
 
-  @media only screen and (width <= 1024px) {
+  @include tablet {
     padding: 25px 55px 0;
   }
 
-  @media only screen and (width <= 600px) {
+  @include mobile {
     padding: 25px 25px 0;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,7 @@
   &__data {
     padding: 0 35px;
 
-    @media only screen and (width <= 600px) {
+    @include mobile {
       padding: 0;
     }
   }
