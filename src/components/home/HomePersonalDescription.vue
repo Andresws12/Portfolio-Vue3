@@ -17,6 +17,7 @@
         :title="$t('views.home.images.dataAnimalsImage')"
         width="375"
         height="359"
+        lazy="loading"
       />
     </article>
   </section>
@@ -31,6 +32,7 @@
 .home-personal-description {
   background-color: $main-color;
   color: $main-color-dark;
+  position: relative;
   padding: 25px 200px;
 
   @include tablet {
