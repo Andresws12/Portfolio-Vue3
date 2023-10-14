@@ -49,20 +49,20 @@ const emit = defineEmits<EmitsType>();
   margin: 10px;
   width: 350px;
   border-radius: 15px;
-  box-shadow: 0 4px 8px 0 $main-color;
+  box-shadow: 0 2px 5px 0 $main-color;
   background-color: $main-color;
   transition: 0.3s;
   color: $main-color-dark;
 
   &:hover {
-    box-shadow: 0 8px 16px 0 $main-color;
+    box-shadow: 0 4px 8px 0 $main-color;
   }
 
   &.is-active {
-    box-shadow: 0 4px 8px 0 $main-color-medium-light;
+    box-shadow: 0 2px 5px 0 $main-color-medium-light;
 
     &:hover {
-      box-shadow: 0 8px 16px 0 $main-color-medium-light;
+      box-shadow: 0 4px 8px 0 $main-color-medium-light;
     }
   }
 
