@@ -17,6 +17,7 @@
         :title="$t('views.home.images.dataAnimalsImage')"
         width="375"
         height="359"
+        lazy="loading"
       />
     </article>
   </section>
