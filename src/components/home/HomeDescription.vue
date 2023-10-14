@@ -5,16 +5,16 @@
       src="@/assets/img/body.webp"
       :alt="$t('views.home.images.dataBodyImage')"
       :title="$t('views.home.images.dataBodyImage')"
-      width="250"
-      height="392"
+      width="230"
+      height="360"
     />
     <img
       class="home-description__image-blurred"
       src="@/assets/img/body.webp"
       :alt="$t('views.home.images.dataBodyImageBlurred')"
       :title="$t('views.home.images.dataBodyImageBlurred')"
-      width="250"
-      height="392"
+      width="230"
+      height="360"
     />
     <article class="home-description__data">
       <h1 class="home-description__title">
