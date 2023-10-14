@@ -9,6 +9,7 @@
         :height="imageHeight"
         loading="lazy"
       />
+      <span v-if="isActive" class="common-card__image-label"> Current </span>
     </div>
     <div class="common-card__text-container">
       <h3 class="common-card__title">{{ textTitle }}</h3>
@@ -73,6 +74,7 @@ const emit = defineEmits<EmitsType>();
     justify-content: center;
     align-items: center;
     border-radius: 15px 15px 0 0;
+    position: relative;
   }
 
   &__button-container {
@@ -95,6 +97,15 @@ const emit = defineEmits<EmitsType>();
 
   &__description {
     font-size: 0.85rem;
+  }
+
+  &__image-label {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: $main-color-medium-light;
+    font-size: 0.85rem;
+    font-weight: 700;
   }
 }
 </style>
