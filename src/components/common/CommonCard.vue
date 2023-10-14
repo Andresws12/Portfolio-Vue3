@@ -93,10 +93,11 @@ const emit = defineEmits<EmitsType>();
   &__subtitle {
     margin-top: 10px;
     margin-bottom: 0;
+    font-size: 1.25rem;
   }
 
   &__description {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
 
   &__image-label {
@@ -104,7 +105,7 @@ const emit = defineEmits<EmitsType>();
     left: 15px;
     top: 15px;
     color: $main-color-medium-light;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     font-weight: 700;
   }
 }
