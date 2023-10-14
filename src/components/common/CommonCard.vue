@@ -2,38 +2,54 @@
   <article class="common-card" :class="{ 'is-active': isActive }">
     <div class="common-card__image-container">
       <img
-        :src="imageSource"
+        :src="props.imageSource"
         :alt="props.imageData"
         :title="props.imageData"
         width="250"
-        :height="imageHeight"
+        :height="props.imageHeight"
         loading="lazy"
       />
-      <span v-if="isActive" class="common-card__image-label"> Current </span>
+      <span v-if="isActive" class="common-card__image-label">
+        {{ props.activeTextButton }}
+      </span>
     </div>
     <div class="common-card__text-container">
-      <h3 class="common-card__title">{{ textTitle }}</h3>
-      <h4 class="common-card__subtitle">{{ textSubtitle }}</h4>
-      <p class="common-card__description">{{ textDescription }}</p>
+      <h3 class="common-card__title">{{ props.textTitle }}</h3>
+      <h4 class="common-card__subtitle">{{ props.textSubtitle }}</h4>
+      <p class="common-card__description">{{ props.textDescription }}</p>
     </div>
     <div class="common-card__button-container">
       <button class="button is-extended is-secondary" @click="emit('click')">
-        More Deets Here 👀
+        {{ props.callToActionButton }}
       </button>
     </div>
   </article>
 </template>
 
 <script lang="ts" setup>
-const props = defineProps<{
+export interface Props {
   imageSource: string;
   imageData: string;
   imageHeight: string;
   textTitle: string;
   textDescription: string;
   textSubtitle: string;
+  callToActionButton: string;
   isActive?: boolean;
-}>();
+  activeTextButton?: string;
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  imageSource: '',
+  imageData: '',
+  imageHeight: '',
+  textTitle: '',
+  textDescription: '',
+  textSubtitle: '',
+  callToActionButton: '',
+  isActive: false,
+  activeTextButton: '',
+});
 
 type EmitsType = {
   (e: 'click'): void;

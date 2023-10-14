@@ -4,7 +4,7 @@
     "home": {
       "homeDescription": {
         "title": "Andrés Felipe Hernández Galindo",
-        "subtitle": "Ingeniero de Software Front-end",
+        "subtitle": "Desarrollador Front-end",
         "descriptionWelcome": "¡Hey, qué tal! 👋",
         "description": "¡Bienvenido a mi rincón digital! He construido este portafolio con mucho amor y código, utilizando Vue 3, Typescript y Pinia para una gestión de estados eficiente. Aquí no solo me divierto experimentando con las últimas tendencias en desarrollo frontend y poniendo en práctica mis ideas más innovadoras, sino que también podrás encontrar detalles sobre mi experiencia laboral."
       },
@@ -15,12 +15,41 @@
           "paragraph2": "Desde que era un crío, me he sentido atraído por la tecnología. Empecé con servidores de Habbo y sistemas operativos Android personalizados, y ahora, aquí estoy, viviendo mi pasión cada día. Pero no todo en la vida es código; también me encanta mantenerme en forma con crossfit, perderme en la naturaleza, viajar para descubrir nuevos horizontes y disfrutar de buena música. Ah, y cómo olvidar, ¡adoro a los animales! Permíteme presentarte a mis pequeños compañeros peludos."
         }
       },
+      "homeWorkExperience": {
+        "title": "¡Dale un vistazo a mi aventura laboral! 🚀",
+        "callToActionButton": "Próximamente👀",
+        "activeButtonText": "Actualmente",
+        "iskaypet": {
+          "name": "Iskaypet",
+          "title": "Desarrollador Front-end",
+          "period": "nov. 2021 - actualidad · 2 años"
+        },
+        "cloudappi": {
+          "name": "CloudAPPI",
+          "title": "Desarrollador Front-end",
+          "period": "mar. 2021 - nov. 2021 · 9 mesess"
+        },
+        "star": {
+          "name": "Star",
+          "title": "Desarrollador Front-end",
+          "period": "feb. 2019 - feb. 2021 · 2 años 1 mes"
+        },
+        "pantallazo": {
+          "name": "Pantallazo Azul",
+          "title": "Desarrollador Front-end",
+          "period": "ago. 2018 - feb. 2019 · 7 meses"
+        }
+      },
       "images": {
         "dataBodyImage": "Yo en 3D low poly",
         "dataBodyImageBlurred": "Yo en 3D low poly",
         "dataAnimalsImage": "Animales en low poly",
         "dataGithubImage": "Github logo",
-        "dataLinkedinImage": "Linkedin logo"
+        "dataLinkedinImage": "Linkedin logo",
+        "dataIskaypetImage": "Iskaypet logo",
+        "dataCloudappiImage": "CloudAPPI logo",
+        "dataStarImage": "Star logo",
+        "dataPantallazoImage": "Pantallazo Azul logo"
       }
     }
   }

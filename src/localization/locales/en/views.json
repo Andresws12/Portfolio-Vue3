@@ -15,12 +15,41 @@
           "paragraph2": "Ever since I was a kid, I've been drawn to technology. I started with Habbo servers and custom Android operating systems, and now, here I am, living my passion every day. But life isn't all about code; I also love staying fit with crossfit, getting lost in nature, traveling to discover new horizons, and enjoying good music. Oh, and let's not forget, I absolutely love animals! Allow me to introduce you to my little furry companions."
         }
       },
+      "homeWorkExperience": {
+        "title": "Check Out My Work Adventure! 🚀",
+        "callToActionButton": "Coming Soon👀",
+        "activeButtonText": "Current",
+        "iskaypet": {
+          "name": "Iskaypet",
+          "title": "Front-end Software Engineer",
+          "period": "Nov 2021 - Present · 2 years"
+        },
+        "cloudappi": {
+          "name": "CloudAPPI",
+          "title": "Front-end Software Engineer",
+          "period": "Mar 2021 - Nov 2021 · 9 months"
+        },
+        "star": {
+          "name": "Star",
+          "title": "Front-end Software Engineer",
+          "period": "Feb 2019 - Feb 2021 · 2 years 1 month"
+        },
+        "pantallazo": {
+          "name": "Pantallazo Azul",
+          "title": "Front-end Software Engineer",
+          "period": "Aug 2018 - Feb 2019 · 7 months"
+        }
+      },
       "images": {
         "dataBodyImage": "Me in 3D low poly",
         "dataBodyImageBlurred": "Me in 3D low poly",
         "dataAnimalsImage": "Animals in low poly",
         "dataGithubImage": "Github logo",
-        "dataLinkedinImage": "Linkedin logo"
+        "dataLinkedinImage": "Linkedin logo",
+        "dataIskaypetImage": "Iskaypet logo",
+        "dataCloudappiImage": "CloudAPPI logo",
+        "dataStarImage": "Star logo",
+        "dataPantallazoImage": "Pantallazo Azul logo"
       }
     }
   }
