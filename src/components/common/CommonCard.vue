@@ -17,7 +17,7 @@
     </div>
     <div class="common-card__button-container">
       <button class="button is-extended is-secondary" @click="emit('click')">
-        Ver mas
+        More Deets Here 👀
       </button>
     </div>
   </article>
@@ -52,7 +52,6 @@ const emit = defineEmits<EmitsType>();
   box-shadow: 0 4px 8px 0 $main-color;
   background-color: $main-color;
   transition: 0.3s;
-
   color: $main-color-dark;
 
   &:hover {
@@ -61,6 +60,7 @@ const emit = defineEmits<EmitsType>();
 
   &.is-active {
     box-shadow: 0 4px 8px 0 $main-color-medium-light;
+
     &:hover {
       box-shadow: 0 8px 16px 0 $main-color-medium-light;
     }
@@ -72,27 +72,27 @@ const emit = defineEmits<EmitsType>();
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px 15px 0px 0px;
-    margin-bottom: 15px;
+    border-radius: 15px 15px 0 0;
   }
 
   &__button-container {
-    padding: 0px 15px 15px 15px;
+    padding: 0 15px 15px;
   }
 
   &__text-container {
-    padding: 0px 15px;
+    padding: 0 15px;
   }
 
   &__title {
     font-size: 1.75rem;
-    margin-bottom: 0px;
+    margin: 0;
   }
 
   &__subtitle {
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
+
   &__description {
     font-size: 0.85rem;
   }

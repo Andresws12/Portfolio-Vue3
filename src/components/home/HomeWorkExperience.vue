@@ -9,7 +9,7 @@
         text-title="Iskaypet"
         text-subtitle="Front-End Software Engineer"
         text-description="nov. 2021 - actualidad · 2 años"
-        isActive
+        is-active
         @click="console.log('test')"
       />
       <common-card
@@ -55,6 +55,7 @@ import Pantallazo from '@/assets/img/pantallazo.webp';
 //Styles
 .home-work-experience {
   padding: 25px;
+
   &__cads {
     display: flex;
     overflow-x: auto;
