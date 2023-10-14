@@ -56,6 +56,10 @@ import Pantallazo from '@/assets/img/pantallazo.webp';
 .home-work-experience {
   padding: 25px;
 
+  @include desktop-large {
+    padding: 25px 200px;
+  }
+
   &__cads {
     display: flex;
     overflow-x: auto;

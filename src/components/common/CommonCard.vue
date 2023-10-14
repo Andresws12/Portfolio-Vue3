@@ -54,6 +54,7 @@ const emit = defineEmits<EmitsType>();
   background-color: $main-color;
   transition: 0.3s;
   color: $main-color-dark;
+  position: relative;
 
   &:hover {
     box-shadow: 0 4px 8px 0 $main-color;
