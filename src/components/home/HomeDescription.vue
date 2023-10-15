@@ -8,14 +8,6 @@
       width="230"
       height="360"
     />
-    <img
-      class="home-description__image-blurred"
-      src="@/assets/img/body.webp"
-      :alt="$t('views.home.images.dataBodyImageBlurred')"
-      :title="$t('views.home.images.dataBodyImageBlurred')"
-      width="230"
-      height="360"
-    />
     <article class="home-description__data">
       <h1 class="home-description__title">
         {{ $t('views.home.homeDescription.title') }}
@@ -71,12 +63,8 @@ import ButtonContact from '@/components/common/ButtonContact.vue';
 
   &__image {
     z-index: 2;
-  }
-
-  &__image-blurred {
-    position: absolute;
-    z-index: 1;
-    filter: blur(8px);
+    -webkit-filter: drop-shadow(0 0 90px $main-color);
+    filter: drop-shadow(0 0 90px $main-color);
   }
 
   &__description-section {
