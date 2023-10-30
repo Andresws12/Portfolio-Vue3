@@ -114,7 +114,7 @@ const emit = defineEmits<EmitsType>();
   }
 
   &__description {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   &__image-label {

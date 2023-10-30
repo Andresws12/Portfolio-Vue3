@@ -3,8 +3,8 @@
     <img
       class="home-description__image"
       src="@/assets/img/body.webp"
-      :alt="$t('views.home.images.dataBodyImage')"
-      :title="$t('views.home.images.dataBodyImage')"
+      :alt="$t('common.images.dataBodyImage')"
+      :title="$t('common.images.dataBodyImage')"
       width="230"
       height="360"
     />

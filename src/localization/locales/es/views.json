@@ -17,39 +17,56 @@
       },
       "homeWorkExperience": {
         "title": "¡Dale un vistazo a mi aventura laboral! 🚀",
-        "callToActionButton": "Próximamente👀",
-        "activeButtonText": "Actualmente",
-        "iskaypet": {
-          "name": "Iskaypet",
-          "title": "Desarrollador Front-end",
-          "period": "nov. 2021 - actualidad · 2 años"
-        },
-        "cloudappi": {
-          "name": "CloudAPPI",
-          "title": "Desarrollador Front-end",
-          "period": "mar. 2021 - nov. 2021 · 9 mesess"
-        },
-        "star": {
-          "name": "Star",
-          "title": "Desarrollador Front-end",
-          "period": "feb. 2019 - feb. 2021 · 2 años 1 mes"
-        },
-        "pantallazo": {
-          "name": "Pantallazo Azul",
-          "title": "Desarrollador Front-end",
-          "period": "ago. 2018 - feb. 2019 · 7 meses"
-        }
+        "callToActionButton": "Ver más",
+        "activeButtonText": "Actualmente"
+      }
+    },
+    "works": {
+      "iskaypet": {
+        "title": "En Iskaypet 🐾",
+        "intro": "Me sumergí de lleno en el mundo del ecommerce, trabajando en las webs de Tiendanimal y Kiwoko, que están montadas en Salesforce. Pero oye, no nos quedamos ahí. Estamos en plena misión de migrar todo el tinglado a Headless con Vue 3, y como soy el \"gurú\" de Vue en el equipo, me encargo de investigar, estandarizar y crear los proyectos base para esta gran aventura.",
+        "coolProjects": "Proyectos chulos en los que he trabajado:",
+        "ecommerceTitle": "Ecommerce Tiendanimal y Kiwoko:",
+        "ecommerce": "Aquí me la paso entre Salesforce, Jquery, JavaScript y Sass. ¡Un cóctel tecnológico!",
+        "componentLibraryTitle": "Librería de componentes para el Design System de Tiendanimal:",
+        "componentLibrary": "Este lo he creado desde cero, usando Vue 3, Rollup y Sass. También he metido lint, jest, stylelint y Vitest para que todo quede perfecto.",
+        "ssrProjectTitle": "Proyecto Front SSR con Vue 3:",
+        "ssrProject": "Este es otro proyecto desde cero, pero con un montón de tecnologías como Sass, TypeScript, ESLint, Vitest, Cypress, Stylelint, Pinia, Axios e i18n. Todo para lograr el mejor rendimiento, SEO y core vitals en el ecommerce."
       },
-      "images": {
-        "dataBodyImage": "Yo en 3D low poly",
-        "dataBodyImageBlurred": "Yo en 3D low poly",
-        "dataAnimalsImage": "Animales en low poly",
-        "dataGithubImage": "Github logo",
-        "dataLinkedinImage": "Linkedin logo",
-        "dataIskaypetImage": "Iskaypet logo",
-        "dataCloudappiImage": "CloudAPPI logo",
-        "dataStarImage": "Star logo",
-        "dataPantallazoImage": "Pantallazo Azul logo"
+      "cloudappi": {
+        "title": "Aventuras en Cloudappi 🌩️",
+        "intro": "En Cloudappi, me convertí en una especie de mago tecnológico, creando aplicaciones web con VUE 3, Angular y .NET Core. Vivíamos el método SCRUM a tope y me divertí con herramientas chulas como GitLab, Redmine, Odoo y Jira. Ya fuera un proyecto grande o pequeño, ahí estaba yo, añadiendo un toque de magia con Bootstrap, Buefy y Bulma, y claro, asegurándome de que todo estuviera en su punto con pruebas e2e y unitarias.",
+        "coolProjects": "Proyectos que me fliparon:",
+        "simulationTitle": "Simulador para obtener preofertas con un mapa:",
+        "simulation": "Trabajé con Vue 3, Bulma y TypeScript. ¡Era como construir un mapa del tesoro, pero para instalaciones!",
+        "mapManagementTitle": "Gestión de mapa para puntos con datos:",
+        "mapManagement": "Este proyecto fue todo sobre Blazor y Bootstrap. ¡Como un cartógrafo, pero de datos!",
+        "listingTitle": "Listado y gestión de información:",
+        "listing": "Me sumergí en Angular y TypeScript para este. ¡Era como ser bibliotecario, pero de datos!"
+      },
+      "pantallazo": {
+        "title": "My Pantallazo Azul Saga 🖥️",
+        "intro": "My first gig in tech was at Pantallazo Azul, and man, did I wear a lot of hats! I was the go-to guy for building PCs, whether it was a budget rig or a high-end gaming monster. Not just that, I was also the friendly face selling all sorts of tech goodies to customers. Got a tech problem? I was your fixer, troubleshooting issues left and right. But wait, there's more! I also dabbled in PHP app development, set up security cameras, and even crafted websites in WordPress.",
+        "coolProjects": "Projects That Kickstarted My Journey:",
+        "posTitle": "Web-based POS and Hotel Apps in PHP:",
+        "pos": "I was the maintenance guy, making sure everything ran smoothly.",
+        "wordpressTitle": "Various WordPress Websites:",
+        "wordpress": "From online stores to static pages, I was the WordPress whiz making it all happen."
+      },
+      "star": {
+        "title": "Mi Debut en las Grandes Ligas con STAR Group 🌟",
+        "intro": "Al entrar en las grandes ligas con STAR Group, mi primer trabajo en una empresa importante fue todo sobre mostrar mis habilidades en Vue 2 y .NET Core. Éramos un grupo amante del SCRUM, y tuve la oportunidad de trastear con GitLab y Jira. Ya fuera un proyecto gigante o una mini-aplicación, yo era el chico que le añadía un toque mágico con Bootstrap, Buefy y Bulma. Y puedes apostar que me aseguré de que todo estuviera perfecto con pruebas e2e y unitarias.",
+        "coolProjects": "Proyectos que me hicieron sentir como una estrella:",
+        "smartSearchTitle": "Buscador inteligente: ",
+        "smartSearch": "Participé en la creación y mantenimiento de este proyecto, que fue desarrollado con Vue 2, Bulma, Buefy, Cypress y Jest.",
+        "techServiceTitle": "App de servicio técnico para mecánicos: ",
+        "techService": "Fui uno de los desarrolladores en este proyecto, construido usando Vue 2, Bulma, Buefy, Cypress y Jest.",
+        "productListingTitle": "Listado de productos con filtrado inteligente: ",
+        "productListing": "Colaboré en la creación y mantenimiento de este proyecto, hecho con Vue 2, Bulma, Buefy, Cypress y Jest.",
+        "dataManagerTitle": "Gestor de datos para el listado de productos: ",
+        "dataManager": "Este fue un proyecto en el que participé, todo sobre .NET y Bootstrap.",
+        "wholesaleTitle": "Tienda para clientes al por mayor: ",
+        "wholesale": "Fui uno de los colaboradores en este proyecto, otra obra maestra en .NET y Bootstrap."
       }
     }
   }
