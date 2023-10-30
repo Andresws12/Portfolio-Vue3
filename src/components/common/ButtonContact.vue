@@ -7,8 +7,8 @@
     >
       <img
         src="@/assets/img/github.svg"
-        :alt="$t('views.home.images.dataGithubImage')"
-        :title="$t('views.home.images.dataGithubImage')"
+        :alt="$t('common.images.dataGithubImage')"
+        :title="$t('common.images.dataGithubImage')"
         class="contact-buttons__icon"
         width="29"
         height="29"
@@ -22,8 +22,8 @@
       <img
         class="contact-buttons__icon"
         src="@/assets/img/linkedin.svg"
-        :alt="$t('views.home.images.dataLinkedinImage')"
-        :title="$t('views.home.images.dataLinkedinImage')"
+        :alt="$t('common.images.dataLinkedinImage')"
+        :title="$t('common.images.dataLinkedinImage')"
         width="29"
         height="29"
       />

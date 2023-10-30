@@ -7,6 +7,32 @@ export const routes: RouteRecordRaw[] = [
     name: 'home',
     component: () => import('@/views/HomeView.vue'),
   },
+  {
+    path: '/works/',
+    name: 'works',
+    children: [
+      {
+        path: 'iskaypet',
+        name: 'iskaypet',
+        component: () => import('@/views/works/IskaypetView.vue'),
+      },
+      {
+        path: 'cloudappi',
+        name: 'cloudappi',
+        component: () => import('@/views/works/CloudappiView.vue'),
+      },
+      {
+        path: 'star',
+        name: 'star',
+        component: () => import('@/views/works/StarView.vue'),
+      },
+      {
+        path: 'pantallazo',
+        name: 'pantallazo',
+        component: () => import('@/views/works/PantallazoView.vue'),
+      },
+    ],
+  },
 ];
 const router = createRouter({
   history: createWebHistory(),

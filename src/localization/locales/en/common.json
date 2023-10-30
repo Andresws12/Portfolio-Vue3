@@ -5,6 +5,28 @@
         "altText": "Loading icon"
       }
     },
+    "works": {
+      "iskaypet": {
+        "name": "IskayPet Group",
+        "title": "Front-end Software Engineer",
+        "period": "Nov 2021 - Present · 2 years"
+      },
+      "cloudappi": {
+        "name": "CloudAPPI",
+        "title": "Front-end Software Engineer",
+        "period": "Mar 2021 - Nov 2021 · 9 months"
+      },
+      "star": {
+        "name": "Star",
+        "title": "Front-end Software Engineer",
+        "period": "Feb 2019 - Feb 2021 · 2 years 1 month"
+      },
+      "pantallazo": {
+        "name": "Pantallazo Azul",
+        "title": "Front-end Software Engineer",
+        "period": "Aug 2018 - Feb 2019 · 7 months"
+      }
+    },
     "title": {
       "home": "Home"
     },
@@ -15,7 +37,17 @@
       "success": {},
       "error": {}
     },
-    "images": {},
+    "images": {
+      "dataBodyImage": "Me in 3D low poly",
+      "dataBodyImageBlurred": "Me in 3D low poly",
+      "dataAnimalsImage": "Animals in low poly",
+      "dataGithubImage": "Github logo",
+      "dataLinkedinImage": "Linkedin logo",
+      "dataIskaypetImage": "Iskaypet logo",
+      "dataCloudappiImage": "CloudAPPI logo",
+      "dataStarImage": "Star logo",
+      "dataPantallazoImage": "Pantallazo Azul logo"
+    },
     "languages": { "spanish": "Spanish", "english": "English" },
     "errors": {}
   }

@@ -13,8 +13,8 @@
       <img
         class="home-description__image"
         src="@/assets/img/animals.webp"
-        :alt="$t('views.home.images.dataAnimalsImage')"
-        :title="$t('views.home.images.dataAnimalsImage')"
+        :alt="$t('common.images.dataAnimalsImage')"
+        :title="$t('common.images.dataAnimalsImage')"
         width="375"
         height="359"
         lazy="loading"

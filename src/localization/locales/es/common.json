@@ -5,6 +5,28 @@
         "altText": "Icono de carga"
       }
     },
+    "works": {
+      "iskaypet": {
+        "name": "Grupo IskayPet",
+        "title": "Desarrollador Front-end",
+        "period": "nov. 2021 - actualidad · 2 años"
+      },
+      "cloudappi": {
+        "name": "CloudAPPI",
+        "title": "Desarrollador Front-end",
+        "period": "mar. 2021 - nov. 2021 · 9 mesess"
+      },
+      "star": {
+        "name": "Star",
+        "title": "Desarrollador Front-end",
+        "period": "feb. 2019 - feb. 2021 · 2 años 1 mes"
+      },
+      "pantallazo": {
+        "name": "Pantallazo Azul",
+        "title": "Desarrollador Front-end",
+        "period": "ago. 2018 - feb. 2019 · 7 meses"
+      }
+    },
     "title": {
       "home": "Inicio"
     },
@@ -15,7 +37,17 @@
       "success": {},
       "error": {}
     },
-    "images": {},
+    "images": {
+      "dataBodyImage": "Yo en 3D low poly",
+      "dataBodyImageBlurred": "Yo en 3D low poly",
+      "dataAnimalsImage": "Animales en low poly",
+      "dataGithubImage": "Github logo",
+      "dataLinkedinImage": "Linkedin logo",
+      "dataIskaypetImage": "Iskaypet logo",
+      "dataCloudappiImage": "CloudAPPI logo",
+      "dataStarImage": "Star logo",
+      "dataPantallazoImage": "Pantallazo Azul logo"
+    },
     "languages": { "spanish": "Español", "english": "Inglés" },
     "errors": {}
   }
